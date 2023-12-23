@@ -1,0 +1,32 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.878);
+    padding: 4rem 0;
+}
+.about{
+    display: flex;
+    gap: 2rem;
+    cursor: pointer;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+.about h4:hover{
+    color: rgb(170, 117, 220);
+    text-decoration: underline;
+}
+.developer{
+    margin-top: 2rem;
+}
+.developer h5{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 0.8rem;
+}
+.developer h5 span{
+    word-spacing: 0;
+}

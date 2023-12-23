@@ -1,0 +1,35 @@
+main{
+   padding: 1.2rem 0;
+   cursor: pointer;
+}
+main .hero-images .hero-img1 {
+ width: 40rem;
+ height: 31rem;
+}
+main .hero-images{
+    display: flex;
+    gap: 1rem;
+    margin: 0rem 5rem;
+    justify-content: center;
+    align-items: center;
+}
+main .hero-images img{
+    background-color: rgba(0,0,0,.3);
+}
+main .hero-images .hero-img2{
+    width: 20rem;
+    height: 31rem;
+}
+main .hero-images .hero-img3{
+    width: 20rem;
+    height: 15rem;
+}
+main .hero-images .hero-img4{
+    width: 20rem;
+    height: 15rem;
+}
+main .hero-images .hright{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
