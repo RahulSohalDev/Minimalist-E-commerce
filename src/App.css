@@ -2,8 +2,9 @@
   padding: 0;
  margin: 0;
  box-sizing: border-box;
+ max-width: 1475px;
 }
 
 html, body{
-  width: 100%;
+  margin: auto;
 }

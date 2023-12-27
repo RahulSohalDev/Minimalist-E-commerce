@@ -1,0 +1,65 @@
+.Tranding{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 100%;
+}
+.Tranding h2{
+    font-size: 2.4rem;
+    font-family: 'Poppins', sans-serif;
+}
+.Tranding button{
+    padding: 0.4rem 1.2rem;
+    font-size: 1.2rem;
+    margin: 0 4px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.Tranding button:hover{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    transition: 1s;
+}
+.tranding-card{
+    width: 17rem;
+    border: 2px solid rgb(176, 176, 176);
+    /* overflow: hidden; */
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0rem 1rem;
+    margin-right: 2rem;
+    margin-top: 3rem;
+    align-items: center;
+}
+.tranding-card:hover{
+    border: 2px solid black;
+    transition: 1s;
+}
+.tranding-card img{
+    width: inherit;
+    padding: 0 3px;
+    height: 12rem;
+    margin-bottom: 1rem;
+}
+.flex-direction{
+    display: flex;
+    flex-direction: column;
+}
+.tranding-card p{
+    margin-bottom: 1rem;
+}
+.tranding-card h3{
+    margin: 1rem 0;
+}
+.trading-products{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    position: relative;
+    scroll-behavior: smooth;
+}

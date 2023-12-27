@@ -3,7 +3,7 @@ main{
    cursor: pointer;
 }
 main .hero-images .hero-img1 {
- width: 40rem;
+ width: 38rem;
  height: 31rem;
 }
 main .hero-images{
@@ -14,22 +14,81 @@ main .hero-images{
     align-items: center;
 }
 main .hero-images img{
-    background-color: rgba(0,0,0,.3);
+    filter: brightness(60%);
+    transition: 0.3s;
 }
+
 main .hero-images .hero-img2{
-    width: 20rem;
+    width: 17rem;
     height: 31rem;
 }
 main .hero-images .hero-img3{
-    width: 20rem;
+    width: 17rem;
     height: 15rem;
 }
 main .hero-images .hero-img4{
-    width: 20rem;
+    width: 17rem;
     height: 15rem;
 }
 main .hero-images .hright{
     display: flex;
     flex-direction: column;
     gap: 1rem;
+}
+.cont{
+    position: relative;
+}
+.cont h2{
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    font-size: 3rem;
+    font-family: 'Mulish', sans-serif;
+    color: white;
+    letter-spacing: -3px;
+    font-weight: 900;
+}
+
+.count2 {
+    position: relative;
+}
+.count2 h2{
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    font-size: 3rem;
+    font-family: 'Mulish', sans-serif;
+    color: white;
+    font-weight: 900;
+    letter-spacing: -3px;
+}
+.count3 {
+    position: relative;
+}
+.count3 h2{
+    position: absolute;
+    top: 65%;
+    left: 5%;
+    font-size: 3rem;
+    font-family: 'Mulish', sans-serif;
+    color: white;
+    font-weight: 900;
+    letter-spacing: -3px;
+}
+.count4 {
+    position: relative;
+}
+.count4 h2{
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    font-size: 3rem;
+    font-family: 'Mulish', sans-serif;
+    color: white;
+    letter-spacing: -3px;
+    font-weight: 900;
+}
+main .hero-images img:hover{
+    filter: brightness(30%);
+    transition: 1s;
 }

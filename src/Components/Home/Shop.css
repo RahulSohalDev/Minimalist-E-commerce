@@ -1,0 +1,41 @@
+section{
+    display: flex;
+    margin: 5rem 5rem;
+}
+section img{
+    width:38rem;
+}
+section .shop-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(227, 225, 225);
+    padding: 0 3rem;
+}
+section .shop-content p{
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: black;
+    margin: 1.3rem 0;
+}
+section .shop-content h2{
+    font-family: 'Mulish', sans-serif;
+    letter-spacing: -1px;
+
+}
+section .shop-btn{
+    display: flex;
+    width: fit-content;
+    padding: 0.8rem 0.9rem;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+section .shop-btn:hover{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}

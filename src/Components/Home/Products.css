@@ -1,0 +1,36 @@
+.Wrapper{
+    margin: 2rem 5rem;
+}
+.h2{
+    font-size: 2.4rem;
+    margin-bottom: 3rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+.card{
+    width: 17rem;
+    border: 2px solid rgb(176, 176, 176);
+    overflow: hidden;
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0rem 1rem;
+    align-items: center;
+}
+.card:hover{
+    border: 2px solid black;
+    transition: 1s;
+}
+.card img{
+    width: inherit;
+}
+.card p{
+    margin: 1rem auto;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
